@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="title desc">
+  <title id="title">IKB – Innovasi Karya Barokah</title>
+  <desc id="desc">Hexagon badge with an impulse waveform above the IKB monogram</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1A36"/>
+      <stop offset="1" stop-color="#143A6B"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB547"/>
+      <stop offset="0.55" stop-color="#FF7A45"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#7CF7FF"/>
+      <stop offset="1" stop-color="#FFB547"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C9DBF5"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="url(#bg)"/>
+    <rect width="512" height="512" fill="url(#grid)" opacity="0.05"/>
+    <circle cx="256" cy="230" r="170" fill="#22D3EE" opacity="0.07"/>
+  </g>
+
+  <!-- hexagon frame -->
+  <polygon points="256,62 424,159 424,353 256,450 88,353 88,159"
+           fill="none" stroke="url(#edge)" stroke-width="14" stroke-linejoin="round"/>
+  <g fill="#0B1A36" stroke="#FFB547" stroke-width="5">
+    <circle cx="256" cy="62" r="11"/>
+    <circle cx="424" cy="159" r="11" stroke="#FF9A4A"/>
+    <circle cx="424" cy="353" r="11" stroke="#22D3EE"/>
+    <circle cx="256" cy="450" r="11" stroke="#22D3EE"/>
+    <circle cx="88" cy="353" r="11" stroke="#FF9A4A"/>
+    <circle cx="88" cy="159" r="11"/>
+  </g>
+
+  <!-- impulse waveform -->
+  <path d="M128 222 H186 L206 168 L228 258 L252 132 L274 238 L294 196 L312 222 H384"
+        fill="none" stroke="url(#wave)" stroke-width="12" stroke-linecap="round"
+        stroke-linejoin="round" filter="url(#glow)"/>
+
+  <!-- monogram -->
+  <text x="256" y="360" text-anchor="middle"
+        font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
+        font-size="118" font-weight="800" letter-spacing="8" fill="url(#text)">IKB</text>
+  <rect x="196" y="384" width="120" height="6" rx="3" fill="url(#edge)"/>
+</svg>
