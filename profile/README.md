@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <b>English</b> · <a href="https://github.com/IKB-Bogor/.github/blob/main/README.id.md">Bahasa Indonesia</a>
+</p>
+
+<p align="center">
   <img alt=".NET 10" src="https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white">
   <img alt="Avalonia UI" src="https://img.shields.io/badge/Avalonia_UI-11-8B44AC">
   <img alt="Blazor" src="https://img.shields.io/badge/Blazor-Server-5C2D91?logo=blazor&logoColor=white">
