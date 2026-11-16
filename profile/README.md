@@ -41,6 +41,32 @@ IKB is led by **Didik Susilo**.
 | 🎓 **[IKB.LMS](https://github.com/IKB-Bogor/IKB.LMS)**<br>Learning management system | Blazor Server LMS for transformer, power system and electrical safety training. Courses, quizzes, exams, gradebook and certificates; course import from PDF, Word, PowerPoint and Excel; AI quiz generation and essay grading that an instructor always reviews; and **Pak Didik**, an in-app AI assistant. Supports OpenAI, Azure OpenAI, Gemini, Anthropic, DeepSeek and Ollama. |
 | 🤖 **[IKB_AI](https://github.com/IKB-Bogor/IKB_AI)**<br>AI apps | AI applications for IKB. |
 
+## Screenshots
+
+### ⚡ IKB.CHOC: impulse voltage distribution
+
+| Results: node voltages and stress per mesh | Winding model |
+|---|---|
+| ![IKB.CHOC results](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/choc-results.png) | ![IKB.CHOC winding model](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/choc-meshes.png) |
+
+### 🛢️ IKB.DOF: directed oil flow verification
+
+| Study overview with live section drawing | Active part in 3D |
+|---|---|
+| ![IKB.DOF study](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/dof-study.png) | ![IKB.DOF active part 3D](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/dof-active-part-3d.png) |
+
+### 🌀 ShuntReactor: shunt reactor design
+
+| Overview of the design | Winding build |
+|---|---|
+| ![ShuntReactor overview](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/shuntreactor-overview.png) | ![ShuntReactor windings](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/shuntreactor-windings.png) |
+
+### 🎓 IKB.LMS: learning management system
+
+| Dashboard | Pak Didik, the AI assistant |
+|---|---|
+| ![IKB.LMS dashboard](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/lms-dashboard.png) | ![IKB.LMS Pak Didik](https://raw.githubusercontent.com/IKB-Bogor/.github/main/assets/screenshots/lms-pak-didik.png) |
+
 ## Shared approach
 
 - **One engine, tested.** Calculations live in a core library without UI code and are verified against reference cases from the original program or workbook.
